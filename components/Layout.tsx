@@ -1,11 +1,11 @@
 import React, { ReactNode, FC } from 'react'
-import NavigationBar from './layout/NavigationBar'
+import NavigationBar from './layout/navigation-bar/NavigationBar'
 import Footer from './layout/Footer'
 import { ChildrenProp } from '../types'
 
 const Layout: FC<ChildrenProp> = ({ children }) => {
   return (
-    <div>
+    <div className="wrapper">
       <NavigationBar />
       {children}
       <Footer />

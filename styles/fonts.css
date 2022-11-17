@@ -1,0 +1,40 @@
+/* FONT FACES  */
+@font-face {
+  font-family: 'Chaviera';
+  src: url(../assets/fonts/chaviera/ChavieraRegular-d9PwZ.otf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url(../assets/fonts/neue-montreal/NeueMontreal-Regular.otf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url(../assets/fonts/neue-montreal/NeueMontreal-Bold.otf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url(../assets/fonts/neue-montreal/NeueMontreal-Light.otf);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url(../assets/fonts/neue-montreal/NeueMontreal-Medium.otf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

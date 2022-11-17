@@ -1,0 +1,38 @@
+.btn {
+  padding: 8px 16px;
+  outline: none;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+
+  @media only screen and (max-width: 481px) {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  @media only screen and (max-width: 769px) {
+     font-size: 12px;
+  }
+
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color-invert);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
