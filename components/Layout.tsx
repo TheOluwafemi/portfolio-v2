@@ -1,6 +1,6 @@
 import React, { ReactNode, FC } from 'react'
 import NavigationBar from './layout/navigation-bar/NavigationBar'
-import Footer from './layout/Footer'
+import Footer from './layout/footer/Footer'
 import { ChildrenProp } from '../types'
 
 const Layout: FC<ChildrenProp> = ({ children }) => {
