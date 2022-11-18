@@ -8,7 +8,7 @@ import Dark from '../../../public/icons/dark-sun.svg'
 export default function NavigationBar() {
   return (
     <nav className={styles.nav}>
-      <div className={styles.wrapper}>
+      <div className={`container ${styles.wrapper}`}>
         <div className={styles.logo}>
           <Image src={Logo} alt="damilola oluwafemi"></Image>
         </div>

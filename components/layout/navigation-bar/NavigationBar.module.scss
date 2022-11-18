@@ -1,14 +1,5 @@
 .nav {
   background-color: var(--white);
-  padding: 16px 80px;
-
-  @media only screen and (max-width: 481px) {
-    padding: 16px 12px;
-  }
-
-  @media only screen and (max-width: 769px) {
-    padding: 16px 24px;
-  }
 }
 
 .wrapper {
@@ -22,14 +13,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 24px;
 
-  @media only screen and (max-width: 481px) {
+    @media only screen and (max-width: 481px) {
     column-gap: 16px;
-  }
-
-    @media only screen and (max-width: 769px) {
-    column-gap: 24px;
   }
 
   .menuItem {

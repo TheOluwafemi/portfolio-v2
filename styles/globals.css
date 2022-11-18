@@ -55,6 +55,9 @@ body::-webkit-scrollbar {
 }
 
 .container {
+  max-width: 1800px;
+  margin: auto;
+  padding: 16px 4px;
 }
 
 a {
@@ -78,8 +81,40 @@ a {
   }
 }
 
+@media only screen and (max-width: 1600px) {
+  .container {
+     max-width: 1600px;
+    padding: 16px 60px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+     max-width: 1440px;
+    padding: 16px 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 989px;
+    padding: 16px 20px;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   body {
     font-size: 12px;
+  }
+
+  .container {
+    max-width: 1200px;
+    padding: 16px 24px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .container {
+    padding: 16px 12px;
   }
 }
