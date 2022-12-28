@@ -19,14 +19,14 @@ export default function NavigationBar() {
         </div>
 
         <ul className={styles.menu}>
-          <li className={styles.menuItem}>
+          {/* <li className={styles.menuItem}>
             <Image
               src={Dark}
               width="30"
               height="30"
               alt="damilola oluwafemi"
             ></Image>
-          </li>
+          </li> */}
           <li className={`${styles.menuItem} ${styles.itemHome}`}>
             <Button link="/">Home</Button>
           </li>
