@@ -1,0 +1,61 @@
+.aboutContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem 0;
+  row-gap: 2rem;
+
+  .aboutImage {
+    flex: 0 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+    @media only screen and (max-width: 1024px) {
+      flex: 0 0 30%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      flex: 0 0 45%;
+  
+    }
+
+    @media only screen and (max-width: 480px) {
+      flex: 0 0 100%;
+      justify-content: center;
+    }
+  }
+
+  .aboutDesc {
+    flex: 0 0 55%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    @media only screen and (max-width: 1024px) {
+      flex: 0 0 50%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      flex: 0 50%;
+    }
+
+    @media only screen and (max-width: 480px) {
+      flex: 0 0 100%;
+    }
+  }
+
+  .starTop {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+    .starBtm {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+  }
+}

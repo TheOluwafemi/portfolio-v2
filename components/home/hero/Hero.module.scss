@@ -1,12 +1,50 @@
 .hero {
   padding: 90px 16px;
+  position: relative;
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 4px;
+  }
 }
 
 .name {
   display: flex;
   justify-content: flex-end;
   width: 40%;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
+  // animation: drop 2s ease-in-out-elastic forwards alternate running;
+
+  @media only screen and (max-width: 1024px) {
+    width: 40%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 40%;
+    margin-bottom: 4rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+.starTop {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+
+.starBtm {
+  position: absolute;
+  bottom: 5%;
+  left: 17%;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
 }
 
 .title {
@@ -14,20 +52,50 @@
   font-family: 'Chaviera';
   font-style: normal;
   font-weight: 400;
-  font-size: 140px;
-  line-height: 180px;
+  font-size: 160px;
+  // font-size: 120px;
+  line-height: 1;
   letter-spacing: 0.04em;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 120px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 90px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 60px;
+  }
 
   .frontend {
     display: flex;
     justify-content: flex-end;
-    width: 90%;
+    width: 92%;
+
+    @media only screen and (max-width: 480px) {
+      width: 100%;
+    }
   }
 
   .engineer {
     display: flex;
     justify-content: flex-end;
-    width: 55%;
+    width: 57%;
+
+    @media only screen and (max-width: 1024px) {
+      width: 60%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      width: 70%;
+    }
+
+    @media only screen and (max-width: 480px) {
+      width: 100%;
+      justify-content: flex-start;
+    }
   }
 }
 
@@ -35,12 +103,41 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 35%;
-  padding: 2rem;
-  margin-left: 2rem;
+  width: 40%;
+  padding: 0 2rem;
+  margin: 1rem 0;
 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
+  @media only screen and (max-width: 1024px) {
+    width: 55%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 60%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    order: 4;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }

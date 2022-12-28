@@ -1,0 +1,66 @@
+.marquee {
+  border-top: 1px solid var(--grey);
+  border-bottom: 1px solid var(--grey);
+  margin-right: -60px;
+  margin-left: -60px;
+  margin-top: 40px;
+  margin-bottom: 130px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .textSlider {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+
+    font-family: 'Chaviera';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-color);
+
+    overflow-x:visible;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    p {
+      flex: 1 0 auto;
+    }
+  }
+
+  .textSlider::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .marquee {
+    margin-right: -40px;
+    margin-left: -40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .marquee {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .marquee {
+    margin-right: -24px;
+    margin-left: -24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .marquee {
+    margin-right: -12px;
+    margin-left: -12px;
+  }
+}

@@ -1,10 +1,22 @@
+import { useRef } from 'react'
 import Head from 'next/head'
-import Hero from '../components/home/hero/hero'
+import About from '../components/home/about/About'
+import Contact from '../components/home/contact/Contact'
+import Experience from '../components/home/experience/Experience'
+import Hero from '../components/home/hero/Hero'
+import MyArticles from '../components/home/my-articles/MyArticles'
+import Projects from '../components/home/projects/Projects'
 import styles from '../styles/Home.module.scss'
+import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
+import NavigationBar from '../components/layout/navigation-bar/NavigationBar'
+import Footer from '../components/layout/footer/Footer'
+import Marquee from '../components/ui/marquee/Marquee'
 
-export default function Home() {
+const Home = () => {
+  const containerRef = useRef(null)
+
   return (
-    <div>
+    <>
       <Head>
         <title>Damilola Oluwafemi | Portfolio</title>
         <meta
@@ -15,9 +27,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`${styles.main} container`}>
-        <Hero />
-      </main>
-    </div>
+      <LocomotiveScrollProvider
+        options={{ smooth: true, lerp: 0.06 }}
+        containerRef={containerRef}
+        watch={[]}
+      >
+        <div ref={containerRef} data-scroll-container id="scroll-container">
+          <NavigationBar />
+
+          <main className={`${styles.main} container`}>
+            <Hero />
+            <About />
+            <Experience />
+            <Marquee/>
+            <Projects />
+            <MyArticles />
+            <Contact />
+          </main>
+
+          <Footer />
+        </div>
+      </LocomotiveScrollProvider>
+    </>
   )
 }
+
+export default Home

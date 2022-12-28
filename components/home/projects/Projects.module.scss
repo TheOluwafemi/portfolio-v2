@@ -1,0 +1,44 @@
+.projects {
+  padding: 90px 60px;
+  margin-right: -60px;
+  margin-left: -60px;
+  background: var(--tertiary-color);
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .projects {
+    margin-right: -40px;
+    margin-left: -40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .projects {
+    margin-right: -20px;
+    margin-left: -20px;
+    padding: 90px 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    margin-right: -24px;
+    margin-left: -24px;
+    padding: 90px 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .projects {
+    margin-right: -12px;
+    margin-left: -12px;
+    padding: 40px 12px;
+  }
+}

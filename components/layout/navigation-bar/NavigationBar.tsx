@@ -2,13 +2,18 @@ import Image from 'next/image'
 import React from 'react'
 import Button from '../../ui/button/Button '
 import styles from './NavigationBar.module.scss'
-import Logo from '../../../public/icons/Damilola Logo.svg'
+import Logo from '../../../public/icons/dami-logo-white.svg'
 import Dark from '../../../public/icons/dark-sun.svg'
 
 export default function NavigationBar() {
   return (
-    <nav className={styles.nav}>
-      <div className={`container ${styles.wrapper}`}>
+    <nav className={styles.nav} data-scroll-section>
+      <div
+        className={`container ${styles.wrapper}`}
+        data-scroll
+        data-scroll-position="top"
+        data-scroll-repeat="true"
+      >
         <div className={styles.logo}>
           <Image src={Logo} alt="damilola oluwafemi"></Image>
         </div>
@@ -26,10 +31,10 @@ export default function NavigationBar() {
             <Button link="/">Home</Button>
           </li>
           <li className={`${styles.menuItem} ${styles.itemAbout}`}>
-            <Button link="/about">About</Button>
+            <Button link="#about">About</Button>
           </li>
           <li className={`${styles.menuItem} ${styles.itemWork}`}>
-            <Button link="#work">Work</Button>
+            <Button link="#projects">Projects</Button>
           </li>
           <li className={styles.menuItem}>
             <Button link="/blog">Blog</Button>

@@ -1,0 +1,114 @@
+.section {
+  padding: 90px 4px;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--text-color);
+}
+
+.title {
+  color: var(--accent-color);
+  font-family: 'Chaviera';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 180px;
+  letter-spacing: 0.04em;
+}
+
+.big-title {
+  color: var(--accent-color);
+  font-family: 'Chaviera';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 180px;
+  letter-spacing: 0.04em;
+}
+
+.content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content-flex {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.big-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 54px;
+    line-height: 120px;
+  }
+
+  .big-text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 58px;
+  }
+
+  .big-title {
+    font-size: 60px;
+    line-height: 96px;
+    letter-spacing: 0.04em;
+  }
+
+  .big-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section {
+    padding: 40px 4px;
+  }
+
+  .big-title {
+    font-size: 60px;
+    line-height: 96px;
+    letter-spacing: 0.04em;
+  }
+
+  .big-text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,74 @@
+#contact {
+  position: relative;
+}
+
+.topContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .getIn {
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+
+    @media only screen and (max-width: 768px) {
+      width: 40%;
+    }
+
+    @media only screen and (max-width: 480px) {
+      width: 100%;
+      justify-content: flex-end;
+    }
+  }
+
+  .quote {
+    width: 25%;
+
+    @media only screen and (max-width: 768px) {
+      width: 35%;
+    }
+
+    @media only screen and (max-width: 480px) {
+      width: 100%;
+      order: 2;
+      justify-content: flex-start;
+    }
+  }
+
+  .touch {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+
+    @media only screen and (max-width: 768px) {
+      width: 50%;
+    }
+
+    @media only screen and (max-width: 480px) {
+      width: 100%;
+      order: 1;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.bottomContent {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.scroll {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  transform: rotateX(180deg);
+}

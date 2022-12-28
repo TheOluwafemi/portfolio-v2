@@ -1,14 +1,10 @@
 import React, { ReactNode, FC } from 'react'
-import NavigationBar from './layout/navigation-bar/NavigationBar'
-import Footer from './layout/footer/Footer'
 import { ChildrenProp } from '../types'
 
-const Layout: FC<ChildrenProp> = ({ children }) => {
+const Layout: FC<ChildrenProp> = ({ children }, props) => {
   return (
-    <div className="wrapper">
-      <NavigationBar />
+    <div className="wrapper dark" {...props}>
       {children}
-      <Footer />
     </div>
   )
 }
