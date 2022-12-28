@@ -33,7 +33,7 @@ export default function About() {
 
         <article className={styles.aboutDesc} data-scroll data-scroll-speed="2">
           <p className="big-text">
-            I’m Damilola, a web developer and front-end engineer based in Lagos,
+            I’m Damilola Oluwafemi, a front-end engineer based in Lagos,
             Nigeria.
           </p>
           <br />

@@ -1,5 +1,5 @@
 .hero {
-  padding: 90px 16px;
+  padding: 40px 16px;
   position: relative;
 
   @media only screen and (max-width: 480px) {
@@ -54,7 +54,7 @@
   font-weight: 400;
   font-size: 160px;
   // font-size: 120px;
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: 0.04em;
 
   @media only screen and (max-width: 1024px) {

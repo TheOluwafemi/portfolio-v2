@@ -1,11 +1,20 @@
 import React from 'react'
 import styles from './ScrollSpinner.module.scss'
-import LongArrow from "../../../public/icons/long-arrow.svg"
+import LongArrow from '../../../public/icons/long-arrow.svg'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export default function ScrollSpinner() {
   return (
-    <div className={styles.spinner}>
+    <motion.div
+      className={styles.spinner}
+      style={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{
+        delay: 1,
+        duration: 0.5,
+      }}
+    >
       <svg
         className={styles.spinnerSvg}
         xmlns="http://www.w3.org/2000/svg"
@@ -29,15 +38,18 @@ export default function ScrollSpinner() {
               aria-label="scroll to explore"
               textLength="940"
             >
-              &nbsp;Scroll . to .  explore .
+              &nbsp;Scroll . to . explore .
             </textPath>
           </text>
         </g>
       </svg>
 
-      <Image className={styles.arrow} src={LongArrow} alt="scroll to explore" height={100} />
-    
-     
-    </div>
+      <Image
+        className={styles.arrow}
+        src={LongArrow}
+        alt="scroll to explore"
+        height={100}
+      />
+    </motion.div>
   )
 }

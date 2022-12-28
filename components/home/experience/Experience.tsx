@@ -47,7 +47,7 @@ export default function Experience() {
         </div>
 
         <div className={styles.download}>
-          <Button link='#'> Download Resume</Button>
+          <Button link='https://drive.google.com/uc?export=download&id=1SH2xAcdngAYQcfHUs1mp_LF_0XUtoio6'> Download Resume</Button>
         </div>
 
       </div>
