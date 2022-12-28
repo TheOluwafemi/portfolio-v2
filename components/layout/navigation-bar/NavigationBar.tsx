@@ -36,9 +36,9 @@ export default function NavigationBar() {
           <li className={`${styles.menuItem} ${styles.itemWork}`}>
             <Button link="#projects">Projects</Button>
           </li>
-          <li className={styles.menuItem}>
+          {/* <li className={styles.menuItem}>
             <Button link="/blog">Blog</Button>
-          </li>
+          </li> */}
           <li className={`${styles.menuItem} ${styles.itemContact}`}>
             <Button link="#contact">Contact</Button>
           </li>
