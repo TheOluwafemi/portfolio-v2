@@ -26,7 +26,7 @@ export default function Projects() {
           heading="Upflow"
           desc="Account Receivables &nbsp;&nbsp; | &nbsp;&nbsp; Contributor"
           date="2022"
-          link="#"
+          link="https://upflow.io"
         />
         <ListItem
           heading="Yellowcard"

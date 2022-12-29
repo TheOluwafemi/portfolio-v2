@@ -27,7 +27,7 @@ export default function Marquee() {
           <Image src={BlueStar} alt="blue-star" />
           <p>Nuxt </p>
           <Image src={BlueStar} alt="blue-star" />
-          <p>Accessibility *</p>
+          <p>Accessibility</p>
         </div>
       </div>
     </section>

@@ -13,7 +13,7 @@ export type ListItemProps = {
 
 const ListItem: FC<ListItemProps> = ({ link, heading, desc, date }) => {
   return (
-    <Link href={link}>
+    <a href={link} target='_blank' rel='noreferrer noopener'>
       <div className={styles.item}>
         <div className={styles.heading}>
           <h3>{heading}</h3>
@@ -24,7 +24,7 @@ const ListItem: FC<ListItemProps> = ({ link, heading, desc, date }) => {
 
         <small className={styles.date}>{date}</small>
       </div>
-    </Link>
+    </a>
   )
 }
 

@@ -32,14 +32,13 @@
   }
 
   @media only screen and (max-width: 481px) {
-    .itemHome {
+    .itemAbout, .itemContact {
       display: flex;
     }
 
-    .itemAbout,
-    .itemAbout,
-    .itemWork,
-    .itemContact {
+    .itemHome,
+    .itemWork
+     {
       display: none;
     }
   }

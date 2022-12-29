@@ -5,19 +5,19 @@ import { useLocomotiveScroll } from 'react-locomotive-scroll'
 
 const articlesList = [
   {
-    link: '#',
+    link: 'https://www.educative.io/answers/what-is-npx',
     heading: 'What is NPX?',
-    desc: '2020',
+    desc: 'NPX is an NPM package runner that makes it really easy to install any sort of node executable that would have normally been installed using NPM...',
   },
   {
-    link: '#',
+    link: 'https://www.educative.io/answers/mvc-explained',
     heading: 'MVC Explained',
-    desc: '2020',
+    desc: 'Here’s a brief explanation of the Model-View-Controller architectural pattern popularly referred to as MVC...',
   },
   {
-    link: '',
+    link: 'https://medium.com/@The_Oluwafemi/getting-started-with-vue-f654da6125dc',
     heading: 'Getting Started with Vue',
-    desc: '2020',
+    desc: 'Vue is a javascript framework for building user interfaces. It is capable of powering sophisticated Single -Page Applications (SPAs)...',
   },
 ]
 
