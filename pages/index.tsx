@@ -24,10 +24,22 @@ const Home = () => {
           content="Creative web developer based in Lagos, Nigeria."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Damilola Oluwafemi | Portfolio" key="title" />
-        <meta property="og:description" content="Meet Damilola Oluwafemi, a frontend engineer with a passion for building intuitive and user-friendly interfaces. With about 5 years of experience in web development, Damilola has a proven track record of delivering high-quality projects on time and within budget. Visit Damilola's website to learn more about his skills and experience in HTML, CSS, JavaScript, and React, and to see his portfolio of work." key="description" />
+        <meta
+          property="og:title"
+          content="Damilola Oluwafemi | Portfolio"
+          key="title"
+        />
+        <meta
+          property="og:description"
+          content="Meet Damilola Oluwafemi, a frontend engineer with a passion for building intuitive and user-friendly interfaces. With about 5 years of experience in web development, Damilola has a proven track record of delivering high-quality projects on time and within budget. Visit Damilola's website to learn more about his skills and experience in HTML, CSS, JavaScript, and React, and to see his portfolio of work."
+          key="description"
+        />
         <link rel="icon" href="/favicon.ico" />
-        <meta property='og:image' content='/public/images/og.png' key='og-image' />
+        <meta
+          property="og:image"
+          content="https://www.dammy.dev/images/og.png"
+          key="og-image"
+        />
       </Head>
 
       <LocomotiveScrollProvider
