@@ -52,9 +52,9 @@ main {
 
 .wrapper.dark {
   /* body dark color variables  */
-  --accent-color: #4031f5;
+  /* --accent-color: #4031f5; */
   /* --accent-color: #b8c8ff; */
-  /* --accent-color: #7493fb; */
+  --accent-color: #7493fb;
   --background-color: #0f0f1b;
   --nav-background: #0f0f1b66;
   --text-color: #fdfdff;
