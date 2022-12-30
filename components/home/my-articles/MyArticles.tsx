@@ -34,7 +34,7 @@ export default function MyArticles() {
         <div className={styles.list} data-scroll data-scroll-speed="1">
           {articlesList.map((art, index) => (
             <div key={index} className={styles.listItem}>
-              <ListItem heading={art.heading} desc={art.desc} link="#" />
+              <ListItem heading={art.heading} desc={art.desc} link={art.link} />
             </div>
           ))}
         </div>
