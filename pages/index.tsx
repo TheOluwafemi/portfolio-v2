@@ -40,6 +40,8 @@ const Home = () => {
           content="https://www.dammy.dev/images/og.png"
           key="og-image"
         />
+        <meta property="og:url" content="https://dammy.dev/" key="og:url" />
+        <meta property="og:type" content="website" key="og:type" />
       </Head>
 
       <LocomotiveScrollProvider
