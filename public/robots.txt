@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://dammy.dev/sitemap.xml
