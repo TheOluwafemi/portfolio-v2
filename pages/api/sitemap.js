@@ -10,7 +10,7 @@ export default function handler(req, res) {
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
     <url>
       <loc>https://dammy.dev/</loc>
-      <lastmod>31-01-2023</lastmod>
+      <lastmod>2023-02-08</lastmod>
     </url>
     </urlset>`
 
