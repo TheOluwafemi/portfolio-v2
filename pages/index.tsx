@@ -55,7 +55,7 @@ const Home = () => {
           <main className={`${styles.main} container`}>
             <Hero />
             <About />
-            <Experience />
+            {/* <Experience /> */}
             <Marquee />
             <Projects />
             <MyArticles />
