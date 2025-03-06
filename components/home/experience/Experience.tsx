@@ -4,12 +4,12 @@ import ListItem from '../../ui/list-item/ListItem'
 import styles from './Experience.module.scss'
 
 const experienceList = [
-  {
-    link: 'https://upflow.io',
-    heading: 'Upflow',
-    desc: 'Senior Frontend-Engineer',
-    date: '2022 - present',
-  },
+  // {
+  //   link: 'https://upflow.io',
+  //   heading: 'Upflow',
+  //   desc: 'Senior Frontend-Engineer',
+  //   date: '2022 - present',
+  // },
   {
     link: 'https://yellowcard.io',
     heading: 'Yellowcard financials',
