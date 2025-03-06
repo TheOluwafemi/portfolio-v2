@@ -33,8 +33,7 @@ export default function About() {
 
         <article className={styles.aboutDesc} data-scroll data-scroll-speed="2">
           <p className="big-text">
-            I’m Damilola Oluwafemi, a front-end engineer based in Lagos,
-            Nigeria.
+            I’m Damilola Oluwafemi, a front-end engineer based in the United Kingdom.
           </p>
           <br />
           <p className="big-text">
@@ -45,8 +44,7 @@ export default function About() {
           <br />
           <p className="big-text">
             My hobbies take up a large chunk of my leisure, I love to travel,
-            play FIFA, listen to delightful music or loosing myself on the
-            internet
+            play FC25, listen to delightful music or take evening strolls 😁
           </p>
         </article>
       </div>
