@@ -14,7 +14,7 @@ const experienceList = [
     link: 'https://yellowcard.io',
     heading: 'Yellowcard financials',
     desc: 'Frontend-Engineer',
-    date: '2021 - 2022',
+    date: '2021 - present',
   },
   {
     link: 'https://sterling.ng',
